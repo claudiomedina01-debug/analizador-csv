@@ -1,0 +1,26 @@
+DOCUMENTO DE USO DE IA
+=======================
+
+Herramienta utilizada: Claude (Anthropic)
+
+Uso:
+Solicité ayuda para entender y desarrollar paso a paso 
+un analizador seguro de archivos CSV con transacciones financieras.
+
+Acepté:
+- Uso de pandas para leer el CSV de forma segura
+- Validación de columnas del archivo
+- Manejo de errores con try/except
+- Separación del código en funciones
+- Detección de transacciones sospechosas
+- Exportación de resultados a sospechosas.csv
+
+Rechacé:
+- Código sin manejo de errores
+- Soluciones que no entendía
+
+Validación:
+- Revisé manualmente cada parte del código
+- Ejecuté Bandit: resultado 0 problemas encontrados
+- Probé el programa con el archivo transacciones.csv
+- Verifiqué que sospechosas.csv se generó correctamente
